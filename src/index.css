@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  
+}
+:root {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  background-color: #7F7F7F;
+}
+
+.card-container .card{
+  background-color: white;
+  padding: 30px;
+}
+
+.app{
+  min-height: 100vh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container{
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.card h2, p{
+  padding: 10px 0;
+}
